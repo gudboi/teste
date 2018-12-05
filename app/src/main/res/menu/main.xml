@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete_contacts"
+        android:icon="@drawable/ic_sentiment_very_dissatisfied_black_24dp"
+        android:title="@string/main_menu_delete_all_contacts"
+        app:iconTint="#FFF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/contacts_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/main_menu_delete_all_contacts"
+        app:iconTint="#FFF"
+        app:showAsAction="ifRoom" />
+
+    <group
+        android:id="@+id/sort"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/sort_a_z"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="@string/main_menu_sort_az" />
+
+        <item
+            android:id="@+id/sort_z_a"
+            android:icon="@drawable/ic_sort_inv_black_24dp"
+            android:title="@string/main_menu_sort_za" />
+    </group>
+
+</menu>

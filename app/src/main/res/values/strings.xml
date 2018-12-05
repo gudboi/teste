@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">ChatApp</string>
+    <string name="delete_msgs_dialog_title">Delete messages</string>
+    <string name="delete_msgs_dialog_message">Are you sure you want to delete all messages?</string>
+    <string name="chat_menu_delete_all_messages">Delete all messages</string>
+    <string name="create_contact_name_hint">Contact name</string>
+    <string name="create_contact_button">Create contact</string>
+    <string name="create_contact_empty_name_alert">Name field is empty</string>
+    <string name="delete_contact_dialog_message">Are you sure you want to delete \'%s\' from your contact list?</string>
+    <string name="delete_contact_dialog_title">Delete contact</string>
+    <string name="delete_contact_positive">Delete</string>
+    <string name="create_contact_btn_hint">Create contact</string>
+    <string name="send_message_hint">Send \'%s\' a message</string>
+    <string name="delete_contacts_dialog_title">Delete all contacts</string>
+    <string name="delete_contacts_dialog_message">Are you sure you want to delete all contacts?</string>
+    <string name="no_contacts_hint_message">You don\'t have any contacts yet.\nAdd one pressing the button on the bottom right.</string>
+    <string name="activity_add_contact_label">Add contact</string>
+    <string name="main_menu_delete_all_contacts">Delete all contacts</string>
+
+    <plurals name="deleted_contacts_count_toast">
+        <item quantity="one">%d contact deleted</item>
+        <item quantity="other">%d contacts deleted</item>
+    </plurals>
+
+    <plurals name="deleted_messages_count_toast">
+        <item quantity="one">%d message deleted</item>
+        <item quantity="other">%d messages deleted</item>
+    </plurals>
+    <string name="title_activity_maps">Contacts Map</string>
+    <string name="create_contact_no_location_alert">Must specify contact location</string>
+    <string name="contact_map_marker_snippet">Tap to chat</string>
+    <string name="main_menu_sort_az">Sort A-Z</string>
+    <string name="main_menu_sort_za">Sort Z-A</string>
+
+
+</resources>

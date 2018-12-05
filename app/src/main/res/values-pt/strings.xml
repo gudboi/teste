@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_msgs_dialog_title">Apagar mensagens</string>
+    <string name="delete_msgs_dialog_message">Tem a certeza que quer apagar todas as mensagens?</string>
+    <string name="chat_menu_delete_all_messages">Apagar mensagens</string>
+    <string name="create_contact_name_hint">Nome do contacto</string>
+    <string name="create_contact_button">Criar contacto</string>
+    <string name="create_contact_empty_name_alert">O campo do nome do contacto está vazio</string>
+    <string name="delete_contact_dialog_message">Tem a certeza que quer eliminar \'%s\' da sua lista de contactos?</string>
+    <string name="delete_contact_dialog_title">Eliminar contacto</string>
+    <string name="delete_contact_positive">Eliminar</string>
+    <string name="create_contact_btn_hint">Criar contacto</string>
+    <string name="send_message_hint">Envie uma mensagem a \'%s\'</string>
+    <string name="delete_contacts_dialog_title">Eliminar todos os contactos</string>
+    <string name="delete_contacts_dialog_message">Tem a certeza de que quer eliminar todos os contactos?</string>
+    <string name="no_contacts_hint_message">Não tem contactos.\nPressione o botão no canto inferior direito para adicionar um.</string>
+    <string name="activity_add_contact_label">Adicionar contacto</string>
+    <string name="main_menu_delete_all_contacts">Eliminar contactos</string>
+    <string name="create_contact_no_location_alert">Tem de dar a localização do contacto</string>
+    <string name="contact_map_marker_snippet">Toque para conversar</string>
+    <string name="title_activity_maps">Mapa de contactos</string>
+    <string name="main_menu_sort_az">Ordenar A-Z</string>
+    <string name="main_menu_sort_za">Ordenar Z-A</string>
+
+    <plurals
+        name="deleted_contacts_count_toast">
+        <item
+            quantity="one">%d contacto eliminado</item>
+        <item quantity="other">%d contactos eliminados</item>
+    </plurals>
+
+    <plurals
+        name="deleted_messages_count_toast">
+
+        <item
+            quantity="one">%d mensagem eliminada</item>
+        <item quantity="other">%d mensagens eliminadas</item>
+    </plurals>
+</resources>
